@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f9fafb;
@@ -32,13 +34,14 @@ body {
 }
 
 @keyframes fadeIn {
-  from { 
-    opacity: 0; 
-    transform: translateY(15px); 
+  from {
+    opacity: 0;
+    transform: translateY(15px);
   }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -98,9 +101,14 @@ body {
   margin-bottom: 1rem;
 }
 
-@keyframes spin { 
-  0% { transform: rotate(0deg); } 
-  100% { transform: rotate(360deg); } 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .error-message {
