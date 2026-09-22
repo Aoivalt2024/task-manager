@@ -1,0 +1,23 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs
+build/
+frontend/build/
+dist/
+
+# Environment variables & secrets
+.env
+backend/.env
